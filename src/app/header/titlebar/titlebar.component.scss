@@ -1,0 +1,40 @@
+#header{
+    width: 100%;
+    background-color: black;
+    padding-top: 0.6em;
+}
+
+h3, h4 {
+    text-align:center;
+    
+}
+
+h3 {
+    background-image: url(../../../assets/images/title.png);
+    height: 60px;
+    width: 224px;
+    background-color: black;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position:relative;
+
+    span {
+        position: absolute;
+        left: -999em;
+    }
+}
+h4 {
+    background-image: url(../../../assets/images/joanna.png);
+    height: 45px;
+    width: 332px;
+    background-color: black;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position:relative;
+    padding-bottom: .6em;
+
+    span {
+        position: absolute;
+        left: -999em;
+    }
+}

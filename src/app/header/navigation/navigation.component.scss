@@ -1,0 +1,17 @@
+@import '~foundation-sites/scss/foundation';
+
+#navbar {
+    height: 42px;
+    width: 375px;
+    background-color: #98A990;
+
+    ul {
+        @include xy-grid();
+        list-style: none;
+
+        li {
+            @include xy-cell(6);
+            text-align: center;
+        }
+    }
+}
