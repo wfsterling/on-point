@@ -132,3 +132,11 @@
     @include foundation-prototype-classes;
   }
 }
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Special Elite', cursive;
+  margin: 0;
+}
