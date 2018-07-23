@@ -1,25 +1,5 @@
-@import '~foundation-sites/scss/foundation';
 
-@include foundation-xy-grid-classes(
-  /* options
-  $base-grid: true,
-  $margin-grid: true,
-  $padding-grid: true,
-  $block-grid: true,
-  $collapse: true,
-  $offset: true,
-  $vertical-grid: true,
-  $frame-grid: true
-  */
-);
-.mdc-layout-grid {
-  padding: 0;
-  .mdc-layout-grid__inner {
-    margin: 0 auto;
-    max-width: 420px;
 
-  }
-}
 .service-header {
   width: 100%;
   padding: 1em;
@@ -84,3 +64,10 @@ ul.cards-stacked {
     top: -90px;
   } 
 }
+.cosmetic-tattoo-header > caption {
+  width: 100%;
+  display:inline-block;
+  margin-top: 1em;
+  color: #820101;
+}
+
