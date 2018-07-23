@@ -1,0 +1,79 @@
+
+.mdc-layout-grid {
+    padding: 0;
+    .mdc-layout-grid__inner {
+      margin: 0 auto;
+      max-width: 420px;
+  
+    }
+  }
+  .service-header {
+    width: 100%;
+    padding: 1em;
+    // background-color: #CB9B62;
+    background-color: #ffffff;
+    height: 200px;
+    text-align: center;
+    z-index: 5;
+  
+    background-image: url(~/assets/images/texture.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+  
+    img {
+      margin-top: -50px;
+      z-index: 1;
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  .cards-wrapper {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    min-height: 470px;
+    overflow: hidden;
+    background-color: #98A990;
+    background-image: url(~assets/images/moth.png);
+    background-repeat: no-repeat;
+    background-position: -50% 100%;
+    padding-bottom: 5em;
+    background-size: 80%;
+  }
+  ul.cards-stacked {
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    li {
+      position: absolute;
+      width: 280px;
+      a > img {
+        max-width: 100%;
+      }
+    }
+    li.card-1 {
+      transform: rotate(-45deg);
+      left: 50px;
+    }
+    li.card-3{
+      top: -161px;
+      transform: rotate(-45deg);
+      left: 10%;
+  
+    } 
+    li.card-2{
+      transform: rotate(45deg);
+      left: 100px;
+      top: -90px;
+    } 
+  }
+  .cosmetic-tattoo-header > caption {
+    width: 100%;
+    display:inline-block;
+    margin-top: 1em;
+    color: #820101;
+  }
