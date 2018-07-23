@@ -13,6 +13,7 @@ import { TitlebarComponent } from './header/titlebar/titlebar.component';
 import { NavigationComponent } from './header/navigation/navigation.component';
 import { HeaderComponent } from './header/header.component';
 import { ServicesComponent } from './services/services.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ServicesComponent } from './services/services.component';
     TitlebarComponent,
     NavigationComponent,
     HeaderComponent,
-    ServicesComponent
+    ServicesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
