@@ -12,3 +12,100 @@
   $frame-grid: true
   */
 );
+.mdc-layout-grid {
+  padding: 0;
+  .mdc-layout-grid__inner {
+    margin: 0 auto;
+    max-width: 420px;
+
+  }
+}
+.service-header {
+  width: 100%;
+  padding: 1em;
+  // background-color: #CB9B62;
+  background-color: #ffffff;
+  height: 200px;
+  text-align: center;
+  z-index: 5;
+
+  background-image: url(~/assets/images/texture.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+
+  img {
+    margin-top: -50px;
+    z-index: 1;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+.cards-wrapper {
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  height: 400px;
+  overflow: hidden;
+  background-color: #98A990;
+}
+ul.cards-stacked {
+  list-style: none;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  position: relative;
+  li {
+    position: absolute;
+    // left: 50%;
+    // color: white;
+    // top: -200px;
+    // &.card-1 {
+    //   transform: rotate(-45deg);
+    // }
+    // &.card-2 {
+    //   transform: rotate(45deg);
+    // }
+      a img {
+        width: 100%;
+      }
+  }
+  li.card-3{
+    left: 39%;
+    top: -36px;
+    transform: rotate(-45deg);
+    // a {
+    //   display:inline-block;
+    //   width: 411px;
+    //   height: 556px;
+    //   // background: url(~/assets/images/cosmetic-tattoo-card.png) 0 0 no-repeat;
+    //   img {
+    //     width: 100%;
+    //   }
+    // }
+  } 
+  // li.card-2{
+  //   left: 12%;
+  //   top: -219px;
+  //   transform: rotate(45deg);
+  //   a {
+  //     display:inline-block;
+  //     width: 395px;
+  //     height: 579px;
+  //     // background: url(~/assets/images/chinese-medicine-card.png) 0 0 no-repeat;
+      
+  //   }
+  // } 
+  // li.card-1{
+  //   left: -10%;
+  //   top: -295px;
+  //   transform: rotate(-45deg);
+  //   a {
+  //     display:inline-block;
+  //     width: 424px;
+  //     height: 597px;
+  //     // background: url(~/assets/images/custom-tattoo-card.png) 0 0 no-repeat;
+  //   }
+  // } 
+}
