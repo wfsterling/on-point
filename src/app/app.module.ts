@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+
+
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
@@ -14,6 +16,8 @@ import { NavigationComponent } from './header/navigation/navigation.component';
 import { HeaderComponent } from './header/header.component';
 import { ServicesComponent } from './services/services.component';
 import { FooterComponent } from './footer/footer.component';
+
+import { AppRoutingModule } from '../app.routing.module';
 
 @NgModule({
   declarations: [
@@ -31,6 +35,7 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     FormsModule,
     HttpModule
   ],
